@@ -1,11 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* ==========================================================================
+   Main Styles
+   ========================================================================== */
+   @font-face {
+    font-family: "Work Sans";
+    src: url("./font/WorkSans-VariableFont_wght.ttf") format("ttf"),
+      url("./font/WorkSans-Italic-VariableFont_wght.ttf") format("ttf");
+      font-weight: normal;
+      font-style: normal;
+      font-display: fallback;
+}
+
 body{
-    font-family:Verdana, Geneva, Tahoma, sans-serif, 'Work sans',;
+    font-family: "Work Sans", sans-serif;
 }
 .header{
    background-color: #F3C6BD;
     padding: 57px 0px 58px;
    }
 .container{
+    border: solid 2px #F1592B;
     max-width: 1140px;
     margin: 0 auto;
 }  
@@ -14,8 +32,8 @@ body{
     justify-content:space-between;
     align-items: center;
 }
-.logo img{
-    margin-left: 15px;
+.logo_img{
+    margin-left: 0px;
 }
 .parent{
     margin-left:5px;
