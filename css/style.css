@@ -18,13 +18,16 @@
 body{
     font-family: "Work Sans", sans-serif;
 }
+
 .header{
    background-color: #F3C6BD;
+   min-width: 1400px;
+   margin:0 10px auto 10px;
     padding: 57px 0px 58px;
    }
 .container{
     border: solid 2px #F1592B;
-    max-width: 1140px;
+    max-width: 1160px;
     margin: 0 auto;
 }  
 .flex{
@@ -35,20 +38,22 @@ body{
 .logo_img{
     margin-left: 0px;
 }
-.parent{
-    margin-left:5px;
-    height: 80px;
-}
+
 .logo_title{
     margin-top: 15px;
-    font-size: 20px;
     font-weight: 700;
-    color: #2B292D;
+    font-style: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: #2b292d;
 }
 .logo_text{
-    margin-top: -40px;
+    font-weight: 400;
+    font-style: normal;
     font-size: 18px;
-    color: rgba(43,41,45,0.6);
+    line-height: 25px;
+    color: rgba(43, 41, 45, 0.6);
+
 }
 .header_ul{
     margin-right: 75px;
@@ -144,7 +149,7 @@ body{
     height: 85px;
     left: 740px;
     font-size: 24px;
-    padding: 15px 20px 30px 20px;
+    padding: 15px 20px 40px 20px;
 }
  .main_2_twice{
     width: 1325px;
