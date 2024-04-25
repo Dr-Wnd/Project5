@@ -3,6 +3,9 @@
 container flex;
 logo_title;
 logo_text;
+### css divided inot two modules:
+1. headerstyle.css
+2. sectionstyle.css
 #### Next .continue_header class 
 continue_header class is following header class
 ##### .grid_contaner after .continue_header
