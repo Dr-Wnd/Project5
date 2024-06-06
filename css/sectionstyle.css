@@ -83,7 +83,7 @@
     height: 591px;
     left:130px;
     font-size: 24px;
-    padding: 150px 20px 30px 20px;
+    padding: 15px 20px 30px 20px;
     text-align: left;
 }
  p.green_title{
@@ -121,8 +121,7 @@ p.item3-text{
     height: 591px;
     left: 793px;
     font-size: 24px;
-    
-    padding: 150px 20px 30px 20px;
+    padding: 15px 20px 30px 20px;
 }
 .item3-text_flex{
     display: flex;
