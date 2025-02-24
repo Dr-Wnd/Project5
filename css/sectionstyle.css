@@ -39,7 +39,10 @@
     background-color: white;
     text-align: center;
     height: 720px;
-    border: 1px solid plum
+    border: 1px solid plum;
+}
+.section-grid-item3_img{
+    margin: 0 0 auto auto;
 }
 .item1_left{
     position: absolute;
