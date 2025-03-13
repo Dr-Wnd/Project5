@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
 }
-
+@import "Work Sans";
    @font-face {
     font-family: "Work Sans";
     src: url("./font/WorkSans-VariableFont_wght.ttf") format("ttf"),
@@ -26,6 +26,62 @@ body{
     align-items: center; /* Centers child elements horizontally */
     background-color: #ffffff; /* Set a background color if needed */
 }
+/* ####################                                       
+          WorkSans font  for different variants 
+          ws  = Work Sans 
+          
+################################################################################ */
+
+/* Base Style (if applicable) */
+.ws-22px {
+  font-family: "Work Sans", sans-serif;
+  font-size: 22px;
+}
+
+/* Specific Styles */
+.ws-22px-regular {
+  font-family: "Work Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 400; /* Regular weight */
+  color: #2B292D;
+  text-align: left;
+  line-height: 32px;
+  margin-bottom: 8px;
+  
+}
+
+.ws-22px-semibold {
+  font-family: "Work Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 600; /* Semi-bold weight */
+  color: #555; /* Example color */
+}
+
+.ws-22px-bold {
+  font-family: "Work Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 700; 
+  color: #2B292D;
+  line-height: 32px;
+  margin-bottom: 8px;
+  text-align: left; 
+}
+
+.ws-22px-light {
+    font-family: "Work Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    color: #777;
+}
+
+.ws-22px-orange{
+    font-family: "Work Sans", sans-serif;
+    font-size: 22px;
+    color: orange;
+}
+
+
+
 /* ==========================================================================
   Header Styles
    ========================================================================== */
@@ -152,14 +208,7 @@ body{
     align-items: center; /* Center blocks horizontally */
     width: 100%;
   }
-  .main-flex_row {
-    display: flex;
-    flex-direction:row; /* Stack blocks vertically */
-    gap: 20px; /* Space between blocks */
-    padding: 20px;
-    justify-content: space-between; /* Center blocks horizontally */
-    width: 100%;
-  } 
+
  /* Sections */ 
   .block {
     padding: 2px;
@@ -170,7 +219,16 @@ body{
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
-  /*Section 1: What is it about? & Who is it for?*/
+  .main-flex_row {
+    display: flex;
+    flex-direction:row; /* Stack blocks vertically */
+    gap: 20px; /* Space between blocks */
+    padding: 20px;
+    justify-content: space-between; /* Center blocks horizontally */
+    width: 100%;
+  } 
+
+
   .section-info {
     /*height: 255px;*/
     /*top: 710px;*/
@@ -227,10 +285,13 @@ body{
     align-items: center;
   }
 /* Section 1 */
-section[data-block-id="block1"] {
-  margin: 0;
-  padding: 0;
-}
+  .section-1-text {
+  width: 555px;
+  height: 102px;
+  margin-left: 130px;
+  padding: 0 30px 0 30px;
+  
+  } 
   /* Section 4 */
   section[data-block-id="block4"] {
     height: 790px;
