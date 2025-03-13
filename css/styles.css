@@ -49,14 +49,6 @@ body{
   margin-bottom: 8px;
   
 }
-
-.ws-22px-semibold {
-  font-family: "Work Sans", sans-serif;
-  font-size: 22px;
-  font-weight: 600; /* Semi-bold weight */
-  color: #555; /* Example color */
-}
-
 .ws-22px-bold {
   font-family: "Work Sans", sans-serif;
   font-size: 22px;
@@ -66,30 +58,22 @@ body{
   margin-bottom: 8px;
   text-align: left; 
 }
-
 .ws-22px-light {
     font-family: "Work Sans", sans-serif;
     font-size: 22px;
     font-weight: 300;
     color: #777;
 }
-
 .ws-56px-bold{
     font-family: "Work Sans", sans-serif;
     font-size: 56px;
     font-weight: 700; 
     color: #2B292D;
     line-height: 56px;
-    letter-spacing: -0.5px;
-    
   }
-
-
-
 /* ==========================================================================
                                          Header Styles
    ========================================================================== */
-
 .header{
     background-color: #F3C6BD;
     width: 1400px;
@@ -333,9 +317,15 @@ margin-left: 112px;
   position: relative;
   text-align: left;
   width: 462px;
-  margin-left: 140px;
+  margin-left: 155px;
+  letter-spacing: -0.5px;
+ }
+ .special-paragraph {
+    max-width: 461px;
+    margin: 40px 10px 0 0;
+    padding: 5px 40px 2px 0;
   }
-
+ 
   /* 44444444444444444444444444444444444444444444444  Section 4 44444444444444444444444444444444444444444444*/
   section[data-block-id="block4"] {
     height: 790px;
