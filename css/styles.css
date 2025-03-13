@@ -264,3 +264,43 @@ body{
     width: 100%;
     /* Additional styling for the upper area */
   }
+
+  /* Section 11                                               */
+  /* General form styling */
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+}
+
+/* Label styling */
+label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Input field styling */
+input {
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Button styling *//*
+button {
+  padding: 10px;
+  background-color: #04AA6D; 
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}*/
+
+button:hover {
+  background-color: #039f60;
+}
