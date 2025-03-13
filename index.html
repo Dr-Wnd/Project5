@@ -8,23 +8,23 @@
 <link rel="stylesheet" href="./css/styles.css">
 <link rel="stylesheet" href="./css/sectionstyle.css">
 <link rel="stylesheet" href="./css/block.css">
-<title> From Figma</title>
+<title>From Figma</title>
 </head>
 <body>
   <div class="wrappers">
     <header class="header">
       <div class="container flex">
         <div class="logo flex">
-          <img src="./img/header/castle_gate.svg" class="logo_img" alt="logo castle">
+          <img src="./img/header/castle_gate.svg" class="logo_img" alt="Logo: Castle Gate">
           <div>
             <h6 class="logo_title">Foundation</h6>
             <p class="logo_text">Startup landing template</p>
           </div>
         </div> 
-        <nav class="header_nav">
+        <nav class="header_nav flex">
           <ul class="header_ul flex">
-            <li><a class="header_link" href="index.html">Home</a></li>
-            <li><a class="header_link" href="#">Stories</a></li>
+            <li class="header_li"><a class="header_link" href="index.html">Home</a></li>
+            <li class="header_li"><a class="header_link" href="#">Stories</a></li>
           </ul>
           <button class="header_button">Get started</button>
         </nav>
@@ -40,133 +40,115 @@
         </p>
       </div>
     </header>
-   <!-- Inserting section-grid-->
-  <main class="section-grid">
-    <div class="section-grid-item1">
-      <div class="item1_left">
-        <p><strong>What is it about?</strong><br>
-        Building a website for a startup that looks amazing
-            is not a rocket science anymore.
-        </p>
-    </div>
-    </div>
-    <div class="section-grid-item1">
-      <div class="item1_right">
-        <p><strong> Who is it for?</strong><br>
-        Startups, small companies and teams,
-    entrepreneurs and web developers.
-        </p>
-      </div>  
-    </div>
-    <div class="section-grid-item2">
-      <div class="grid-flex">
-        <a  href="#">
-        <img src="./img/main/NYTimes.png">
-        </a>
-        
-        <a  href="#">
-        <img src="./img/main/Forbes.png">
-        </a>
-        
-        <a  href="#">
-        <img src="./img/main/Apple.png">
-        </a>
-       
-        <a  href="#">
-        <img src="./img/main/Mashable.png">
-        </a>
-        
-        <a  href="#">
-        <img src="./img/main/WSJ.png">
-        </a>
-    
-   
-        <a href="#">
-        <img src="./img/main/Google.png">
-        </a>
-      </div>
-    </div>
-      <div class="section-grid-item3">
-        <div class="item3_left">
-          <p class="green_title">Features </p>
-           <h2 class="item3_title">Easily find leads and customers
-           </h2>
-          <p class="item3-text">
-             Send one-off and automated email,<br>
-             push, and in-app messages to people.<br> 
-             Create better stories.
+
+    <main class="main-flex">
+      <section class="block" data-block-id="block1">
+        <div class="item1_left">
+          <p><strong>What is it about?</strong><br>
+          Building a website for a startup that looks amazing is not rocket science anymore.
           </p>
-              <div class="item3-text_flex">
-                <div>
-                 <img src="./img/main/Compass.svg">
-                 <a id="link_1" href="#">Acquire new customers</a>
-                 <p class="item3-text_flex_txt">Everything you need to start building –
-             including open-source code, documentation.
-                 </p>
-                 <hr id="line_1"/>
-                </div>
-                <div>
-                 <img src="./img/main/Fasade.svg">
-                 <a id="link_2" href="#">Engage users </a>
-                </div>
-                <div>
-                 <br><img src="./img/main/Pit.svg">
-                 <a id="link_3" href="#">Develop across platforms </a>
-                </div>
-              </div>
         </div>
-      </div>
-            <div class="section-grid-item3">
-              div class="section-grid-item3_img">
-                <img src="./img/main/Invision_screen.png" width="684px" height="591px">
+      
+        <div class="section-grid-item1">
+          <div class="item1_right">
+            <p><strong> Who is it for?</strong><br>
+            Startups, small companies and teams, entrepreneurs, and web developers.
+            </p>
+          </div>  
+        </div>
+      </section>
+
+      <section class="block" data-block-id="block2">
+        <div class="section-grid-item2">
+          <div class="grid-flex">
+            <a href="#"><img src="./img/main/NYTimes.png" alt="New York Times"></a>
+            <a href="#"><img src="./img/main/Forbes.png" alt="Forbes"></a>
+            <a href="#"><img src="./img/main/Apple.png" alt="Apple"></a>
+            <a href="#"><img src="./img/main/Mashable.png" alt="Mashable"></a>
+            <a href="#"><img src="./img/main/WSJ.png" alt="Wall Street Journal"></a>
+            <a href="#"><img src="./img/main/Google.png" alt="Google"></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" data-block-id="block3">
+        <div class="section-grid-item3">
+          <div class="item3_left">
+            <p class="green_title">Features</p>
+            <h2 class="item3_title">Easily find leads and customers</h2>
+            <p class="item3-text">
+              Send one-off and automated email, push, and in-app messages to people. Create better stories.
+            </p>
+            <div class="item3-text_flex">
+              <div>
+                <img src="./img/main/Compass.svg" alt="Compass">
+                <a id="link_1" href="#">Acquire new customers</a>
+                <p class="item3-text_flex_txt">Everything you need to start building – including open-source code, documentation.</p>
+                <hr id="line_1"/>
+              </div>
+              <div>
+                <img src="./img/main/Fasade.svg" alt="Fasade">
+                <a id="link_2" href="#">Engage users</a>
+              </div>
+              <div>
+                <br><img src="./img/main/Pit.svg" alt="Pit">
+                <a id="link_3" href="#">Develop across platforms</a>
+              </div>
             </div>
-</div>
-</main>  
-<div class="team-inbox-block">
+          </div>
+        </div>
 
-    <div class="image-container img">
-<img src="./img/main/Circl_orange.svg">
-    </div>
-    <div class="text-container">
-        <span class="team-inbox-title">Team Inbox </span>
-        <h2 class="manage-conversations">Manage conversations
-        </h2>
-<p class="conversation-description"> One place to manage and
- respond to all conversations with leads and users.
- Receive messages from leads.
-</p>
-<br>
-<p class="testimonial">“Great widgets. Great selection.
- Great design and <b>easy to implement</b>.
-Definitely a huge time saver for a web developer!”
-</p>
-<div class="director" href="#">
-       <img src="./img/main/Profile Image.svg">
-    <div class="testimonial strong">
-        <strong class="testimonial-author">Viella Malkovich</strong>
-    <p>Creative Director at Johnson</p>
-</div>
-</div>
+        <div class="section-grid-item3">
+          <div class="section-grid-item3_img">
+            <img src="./img/main/Invision_screen.png" alt="Invision Screen" width="684" height="591">
+          </div>
+        </div>
+      </section>
 
- 
-</div>
+      <section class="block" data-block-id="block4">
+        <div class="team-inbox-block">
+          <div class="image-container img">
+            <img src="./img/main/Circl_orange.svg" alt="Orange Circle">
+          </div>
+          <div class="text-container">
+            <span class="team-inbox-title">Team Inbox</span>
+            <h2 class="manage-conversations">Manage conversations</h2>
+            <p class="conversation-description">One place to manage and respond to all conversations with leads and users. Receive messages from leads.</p>
+            <br>
+            <p class="testimonial">“Great widgets. Great selection. Great design and <b>easy to implement</b>. Definitely a huge time saver for a web developer!”</p>
+            <div class="director">
+              <img src="./img/main/Profile Image.svg" alt="Profile Image">
+              <div class="testimonial strong">
+                <strong class="testimonial-author">Viella Malkovich</strong>
+                <p>Creative Director at Johnson</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-</div>
-  
-     <h3> All Surfaces Covered</h3>
-     <p class = "info_text">IOON kills bacteria on your hands, food, tables, laptops, you name it</p>
+      <section class="block" data-block-id="block5"></section>
+      <section class="block" data-block-id="block6"></section>
+      <section class="block" data-block-id="block7"></section>
+      <section class="block" data-block-id="block8"></section>
+      <section class="block" data-block-id="block9"></section>
+      <section class="block" data-block-id="block10">
+        <h3>All Surfaces Covered</h3>
+        <p class="info_text">IOON kills bacteria on your hands, food, tables, laptops, you name it.</p>
+        <div class="grid">
+          <img class="grid_img" src="./img/grid/Apple.svg" alt="Apple">
+          <img class="grid_img" src="./img/grid/Coach.jpg" alt="Coach">
+          <img class="grid_img" src="./img/grid/Man.jpg" alt="Man">
+          <img class="grid_img" src="./img/grid/Arm.svg" alt="Arm">
+          <img class="grid_img" src="./img/grid/Cellphone.svg" alt="Cellphone">
+          <img class="grid_img" src="./img/grid/Babe.jpg" alt="Babe">
+          <img class="grid_img" src="./img/grid/Pet.jpg" alt="Pet">
+        </div> 
+      </section>
+      <section class="block" data-block-id="block11"></section>
+    </main> 
 
-  <div class="grid">
-  <img class="grid_img" src="./img/grid/Apple.svg" alt="Apple"/>
-  <img class="grid_img" src="./img/grid/Coach.jpg" alt="Coach"/>
-  <img class="grid_img" src="./img/grid/Man.jpg" alt="Man"/>
-  <img class="grid_img" src="./img/grid/Arm.svg" alt="Arm"/>
-  <img class="grid_img" src="./img/grid/Cellphone.svg" alt="Cellphone"/>
-  <img class="grid_img" src="./img/grid/Babe.jpg" alt="Babe"/>
-  <img class="grid_img" src="./img/grid/Pet.jpg" alt="Pet"/>
-  </div> 
-
-     <div></div>
-    </div>
-  </body>
+    <footer></footer>
+  </div>
+</body>
 </html>
