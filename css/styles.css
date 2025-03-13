@@ -155,6 +155,14 @@ body{
     align-items: center; /* Center blocks horizontally */
     width: 100%;
   }
+  .main-flex_row {
+    display: flex;
+    flex-direction:row; /* Stack blocks vertically */
+    gap: 20px; /* Space between blocks */
+    padding: 20px;
+    justify-content: space-between; /* Center blocks horizontally */
+    width: 100%;
+  } 
  /* Sections */ 
   .block {
     padding: 2px;
@@ -199,13 +207,14 @@ body{
   .info-left {
     background: #F4F5F7; /* Background color for left column */
     color: #000; /* Text color */
-    width: 555px; /* Set width */
+    /*width: 555px; Set width */
     height: 100%; /* Set height */
     padding: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center; /* Center the text vertically */
     position: relative;
+    min-width: 0; 
   }
   
   .info-left strong {
@@ -227,8 +236,8 @@ body{
   }
   .info-left img {
     align-self: center;
+    width: auto;
     height: auto;
-    width: 100%;
     object-fit: contain; /* Maintain aspect ratio without stretching */
   }
 /* Section 5 Built for busy small teams*/
@@ -251,13 +260,11 @@ body{
   
   /* Columns */
   .column {
-    flex: 1; /* Each column takes equal space */
-    /* Additional styling for columns */
+    flex: 1; 
   }
   .block[data-block-id="block5"] {
-    position: relative; /* Establishes a positioning context */
-    margin-top: 20px; /* Adjust this value as needed */
-     /* Ensures Section 5 appears above Section 4 */
+    position: relative; 
+    margin-top: 20px; 
   }
 /* Section 6 Understand your audience*/
   .big-area {
@@ -265,7 +272,69 @@ body{
     /* Additional styling for the upper area */
   }
 
-  /* Section 11                                               */
+  /* ############################  Section 10 ############################## */
+ .all-surfaces-covered {
+  /* Add any overall styling for the section here */
+  text-align: center; /* Center text and grid */
+}
+
+.all-surfaces-covered h3 {
+  background: fixed;
+}
+
+.all-surfaces-covered .info_text {
+  background: fixed;
+}
+
+.all-surfaces-covered .image-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* 3 equal columns */
+  grid-template-rows: auto auto auto; /* 3 rows, auto height */
+  gap: 10px; /* Adjust gap as needed */
+  max-width: 800px; /* Limit width of grid if needed */
+  margin: 20px auto; /* Center the grid */
+}
+
+.all-surfaces-covered .image-item:nth-child(1) { /* Apple.svg */
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.all-surfaces-covered .image-item:nth-child(2) { /* Coach.svg */
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.all-surfaces-covered .image-item:nth-child(3) { /* Man.svg */
+  grid-column: 3;
+  grid-row: 1 / 3; /* Span 2 rows */
+}
+
+.all-surfaces-covered .image-item:nth-child(4) { /* Arm.svg */
+  grid-column: 1;
+  grid-row: 2 / 4; /* Span 2 rows */
+}
+
+.all-surfaces-covered .image-item:nth-child(5) { /* Cellphone.svg */
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.all-surfaces-covered .image-item:nth-child(6) { /* Bebe.svg */
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.all-surfaces-covered .image-item:nth-child(7) { /* Pet.svg */
+  grid-column: 3;
+  grid-row: 3;
+}
+
+.all-surfaces-covered .image-item {
+  max-width: 100%; /* Ensure images fit within grid cells */
+  height: auto;
+}
+  /* ################## Section 11  ##########################################   */
   /* General form styling */
 form {
   display: flex;
@@ -303,4 +372,37 @@ button {
 
 button:hover {
   background-color: #039f60;
+}
+/* ##################################  Footer ########################################## */
+
+footer p, footer a {
+  margin-bottom: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-links {
+  justify-content: center; /* Center the links */
+}
+
+.footer-links a {
+  margin: 0 15px; /* Space between links */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .footer-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-column {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .footer-links a {
+    margin: 5px;
+  }
 }
