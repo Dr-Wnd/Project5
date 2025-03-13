@@ -7,7 +7,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./css/styles.css">
 <link rel="stylesheet" href="./css/sectionstyle.css">
-<link rel="stylesheet" href="./css/block.css">
 <title>From Figma</title>
 </head>
 <body>
@@ -41,23 +40,24 @@
       </div>
     </header>
 
-    <main class="main-flex">
-      <section class="block" data-block-id="block1">
-        <div class="item1_left">
+  <main class="main-flex">
+<!-- Section 1: What is it about? & Who is it for? -->
+    <section class="block section-info">
+      <div class="container flex">
+        <div class="info-column info-left">
           <p><strong>What is it about?</strong><br>
-          Building a website for a startup that looks amazing is not rocket science anymore.
+        Building a website for a startup that looks amazing is not rocket science anymore.
           </p>
         </div>
-      
-        <div class="section-grid-item1">
-          <div class="item1_right">
-            <p><strong> Who is it for?</strong><br>
-            Startups, small companies and teams, entrepreneurs, and web developers.
-            </p>
-          </div>  
-        </div>
-      </section>
 
+        <div class="info-column info-right">
+          <p><strong>Who is it for?</strong><br>
+        Startups, small companies and teams, entrepreneurs, and web developers.
+          </p>
+        </div>
+      </div>
+    </section>
+<!-- Section 2: Logos of companies -->
       <section class="block" data-block-id="block2">
         <div class="section-grid-item2">
           <div class="grid-flex">
@@ -70,7 +70,7 @@
           </div>
         </div>
       </section>
-
+<!-- Section 3: Easily finds leads and customers -->
       <section class="block" data-block-id="block3">
         <div class="section-grid-item3">
           <div class="item3_left">
@@ -104,13 +104,13 @@
           </div>
         </div>
       </section>
-
+<!-- Section 4: Manage conversation   -->
       <section class="block" data-block-id="block4">
-        <div class="team-inbox-block">
-          <div class="image-container img">
+        <div class="container flex">
+          <div class="info-column info-left">
             <img src="./img/main/Circl_orange.svg" alt="Orange Circle">
           </div>
-          <div class="text-container">
+          <div class="info-column info-right">
             <span class="team-inbox-title">Team Inbox</span>
             <h2 class="manage-conversations">Manage conversations</h2>
             <p class="conversation-description">One place to manage and respond to all conversations with leads and users. Receive messages from leads.</p>
