@@ -312,4 +312,10 @@ p.item3-text_flex_txt{
        grid-row: 2/4;
    }
    }
-   
+   @media screen and (max-width:350px){
+    .grid{
+       grid-template-columns: repeat(1,1fr);
+       grid-template-rows: repeat(8,1fr);
+       gap:29px 45px;   
+   }
+}
