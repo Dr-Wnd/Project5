@@ -221,13 +221,11 @@ body{
 
   .main-flex_row {
     display: flex;
-    flex-direction:row; /* Stack blocks vertically */
-    gap: 20px; /* Space between blocks */
-    padding: 20px;
-    justify-content: space-between; /* Center blocks horizontally */
-    width: 100%;
-  } 
-
+    flex-direction: row; /* Stack blocks vertically */
+    align-items: center;
+    height: 75px;
+    width: 1139.77px;
+  }
 
   .section-info {
     /*height: 255px;*/
@@ -279,19 +277,51 @@ body{
   /* Right Column (Who is it for?) */
   .info-right {
     width: auto; /* Allow this column to adjust automatically */
-    padding-left: 20px; /* Space between columns */
-    display: flex;
+     display: flex;
     justify-content: center;
     align-items: center;
-  }
-/* Section 1 */
+   }
+/* ############################  Section 1 ###############################*/
   .section-1-text {
   width: 555px;
   height: 102px;
-  margin-left: 130px;
-  padding: 0 30px 0 30px;
-  
+    
   } 
+  .left-text {
+    margin-left: 130px;
+    padding: 0 30px 0 30px;
+  }
+  .right-text {
+    padding-right: 20px;
+  }
+
+  /*    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@            Section 2 & 7  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+.nytimes-link {
+  margin-left: 134px;
+  padding-left: 40px;
+}  
+.forbes-link {
+margin-left: 105px;
+}
+.apple-link {
+margin-left: 130px;
+}   
+.mashable-link {
+margin-left: 112px; 
+}
+.wsj-link {
+  margin-left: 110px; 
+}
+.google-link {
+  margin-left: 90px;
+}
+/* @@@@@@@@@@@@@@@@@@@@@@@@           Section 3: Easily finds leads and customers  @@@@@@@@@@@@@@@@   */
+.green-text {
+  color: #009B4D;
+  margin-left: 140px;
+  padding-left: 20px;
+}
+
   /* Section 4 */
   section[data-block-id="block4"] {
     height: 790px;
