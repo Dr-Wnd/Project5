@@ -38,7 +38,7 @@ body{
   font-size: 22px;
 }
 
-/* Specific Styles */
+/* FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF            Font Styles           SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS*/
 .ws-22px-regular {
   font-family: "Work Sans", sans-serif;
   font-size: 22px;
@@ -74,16 +74,20 @@ body{
     color: #777;
 }
 
-.ws-22px-orange{
+.ws-56px-bold{
     font-family: "Work Sans", sans-serif;
-    font-size: 22px;
-    color: orange;
-}
+    font-size: 56px;
+    font-weight: 700; 
+    color: #2B292D;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+    
+  }
 
 
 
 /* ==========================================================================
-  Header Styles
+                                         Header Styles
    ========================================================================== */
 
 .header{
@@ -199,7 +203,7 @@ body{
     margin-left: 145px; 
 }
 
-/* Main section */
+/* ?????????????????????               Main section  ????????????????????????????????????????????????? */
 .main-flex {
     display: flex;
     flex-direction: column; /* Stack blocks vertically */
@@ -230,7 +234,7 @@ body{
   .section-info {
     /*height: 255px;*/
     /*top: 710px;*/
-    background: #F4F5F7;
+    background-color: #ffffff;
     padding: 20px 0;
     /*display: flex;
     align-items: center;
@@ -258,7 +262,6 @@ body{
     position: relative;
   }
   .info-left {
-    background: #F4F5F7; /* Background color for left column */
     color: #000; /* Text color */
     /*width: 555px; Set width */
     height: 100%; /* Set height */
@@ -282,6 +285,9 @@ body{
     align-items: center;
    }
 /* ############################  Section 1 ###############################*/
+section[data-block-id="block1"] {
+  background-color: #F4F5F7;
+}
   .section-1-text {
   width: 555px;
   height: 102px;
@@ -318,11 +324,19 @@ margin-left: 112px;
 /* @@@@@@@@@@@@@@@@@@@@@@@@           Section 3: Easily finds leads and customers  @@@@@@@@@@@@@@@@   */
 .green-text {
   color: #009B4D;
-  margin-left: 140px;
-  padding-left: 20px;
 }
 
-  /* Section 4 */
+.section-3-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: left; /* Center the text vertically */
+  position: relative;
+  text-align: left;
+  width: 462px;
+  margin-left: 140px;
+  }
+
+  /* 44444444444444444444444444444444444444444444444  Section 4 44444444444444444444444444444444444444444444*/
   section[data-block-id="block4"] {
     height: 790px;
   }
