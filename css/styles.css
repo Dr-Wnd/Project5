@@ -259,3 +259,8 @@ body{
     margin-top: 20px; /* Adjust this value as needed */
      /* Ensures Section 5 appears above Section 4 */
   }
+/* Section 6 Understand your audience*/
+  .big-area {
+    width: 100%;
+    /* Additional styling for the upper area */
+  }
