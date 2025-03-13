@@ -13,7 +13,7 @@
       font-display: fallback;
 }
 body{
-    font-family: "Work Sans", sans-serif;
+    font-family:"Work Sans", Arial, Helvetica, sans-serif;
 }
 
 .wrappers {
@@ -155,7 +155,7 @@ body{
     align-items: center; /* Center blocks horizontally */
     width: 100%;
   }
-  
+ /* Sections */ 
   .block {
     padding: 2px;
     width: 100%; /* Makes blocks stretch to full width */
@@ -200,7 +200,7 @@ body{
     background: #F4F5F7; /* Background color for left column */
     color: #000; /* Text color */
     width: 555px; /* Set width */
-    height: 102px; /* Set height */
+    height: 100%; /* Set height */
     padding: 15px;
     display: flex;
     flex-direction: column;
@@ -219,4 +219,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  /* Section 4 */
+  section[data-block-id="block4"] {
+    height: 790px;
+  }
+  .info-left img {
+    align-self: center;
+    height: auto;
+    width: 100%;
+    object-fit: contain; /* Maintain aspect ratio without stretching */
   }

@@ -7,10 +7,7 @@
     url('WorkSans-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
-  }
-  body{
-    font-family:"Work Sans", Arial, Helvetica, sans-serif;;
-}
+}  
 .section-grid{
     display: grid;
     grid-template-rows: auto;
