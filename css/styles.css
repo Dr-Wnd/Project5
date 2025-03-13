@@ -231,3 +231,31 @@ body{
     width: 100%;
     object-fit: contain; /* Maintain aspect ratio without stretching */
   }
+/* Section 5 Built for busy small teams*/
+/* Upper Area */
+.upper-area {
+   display: flex;
+   gap: 20px; /* Space between columns */
+   width: 100%;
+   justify-content: space-between; /
+    /* Additional styling for the upper area */
+  }
+  
+  /* Lower Area */
+  .lower-area {
+    display: flex;
+    gap: 20px; /* Space between columns */
+    width: 100%;
+    justify-content: space-between; /* Distribute columns evenly */
+  }
+  
+  /* Columns */
+  .column {
+    flex: 1; /* Each column takes equal space */
+    /* Additional styling for columns */
+  }
+  .block[data-block-id="block5"] {
+    position: relative; /* Establishes a positioning context */
+    margin-top: 20px; /* Adjust this value as needed */
+     /* Ensures Section 5 appears above Section 4 */
+  }
