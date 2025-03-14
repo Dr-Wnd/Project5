@@ -84,6 +84,22 @@ body{
   line-height: 26px;
   margin-bottom: 6px;
 }
+.ws-16px-regular {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400  ;
+  font-size: 16px; 
+  color: rgba(43, 41, 45, 0.6);
+  text-align: left;
+  line-height: 24px;
+}
+.ws-16px-bold {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px; 
+  color: rgba(43, 41, 45, 0.6);
+  text-align: left;
+  line-height: 24px;
+}
 
 .ws-22px-regular {
   font-family: "Work Sans", sans-serif;
@@ -528,11 +544,26 @@ margin-left: 112px;
 .block[data-block-id="block8"] {
   background-color: #ffffff;
 }
-.ballon {
+.balloon img {
   position: relative;
-  left: 1101px;
+  float: right;
+  border: double 4px blueviolet;
+}
+.ball {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%; /* Makes it a circle */
+  display: inline-block; /* Allows them to be side-by-side */
+  margin: 0 5px; /* Add some spacing between balls */
 }
 
+.ball-blue {
+  background-color: #3142C5;
+}
+
+.ball-dark {
+  background-color: #2B292D;
+}
 
 /* 10#10#10 Section 10 ############################## */
  .grid{
