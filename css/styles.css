@@ -271,7 +271,7 @@ body{
     justify-content: center;
     align-items: center;
    }
-/* ############################  Section 1 ###############################*/
+/* 111111111111111111       Section 1 ###############################*/
 section[data-block-id="block1"] {
   background-color: #F4F5F7;
 }
@@ -288,7 +288,7 @@ section[data-block-id="block1"] {
     padding-right: 20px;
   }
 
-  /*    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@            Section 2 & 7  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+  /*  2222222222222222222222      Section 2 & 7  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 .nytimes-link {
   margin-left: 134px;
   padding-left: 40px;
@@ -308,7 +308,7 @@ margin-left: 112px;
 .google-link {
   margin-left: 90px;
 }
-/* @@@@@@@@@@@@@@@@@@@@@@@@           Section 3: Easily finds leads and customers  @@@@@@@@@@@@@@@@   */
+/* 33333333333333333333333333    Section 3: Easily finds leads and customers  @@@@@@@@@@@@@@@@   */
 .green-text {
   color: #009B4D;
 }
@@ -338,19 +338,39 @@ margin-left: 112px;
     margin-bottom: 8px;
     padding-left: 10px;
   }
-  .line_1 {
-    color: #3142C6;
-    height: 3px;
+  .section-3-line {
+    border: none;
+    height: 3px;  /* Set the thickness of the line */
+    background-color: #3142C6;
+    margin: 20px 0; 
   }
   /* 44444444444444444444444444444444444444444444444  Section 4 44444444444444444444444444444444444444444444*/
   section[data-block-id="block4"] {
+    max-width: 1400px;
+    margin-top: 0;
     height: 790px;
+    background-color:#FCF0E3;
+    
   }
   .info-left img {
     align-self: center;
     width: auto;
     height: auto;
     object-fit: contain; /* Maintain aspect ratio without stretching */
+  }
+  .red-text {
+    color: #F1592B;
+    ;
+  }
+  .section-4-text {
+    display: flex;
+  flex-direction: column;
+  justify-content: left; /* Center the text vertically */
+  position: relative;
+  text-align: left;
+  width: 519px;
+  margin-left: 155px;
+  letter-spacing: -0.5px;
   }
 /* Section 5 Built for busy small teams*/
 /* Upper Area */
