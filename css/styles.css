@@ -47,13 +47,26 @@ body{
           
 ################################################################################ */
 
-/* Base Style (if applicable) */
-.ws-22px {
+/* FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF            Font Styles FFFFFFFFFFFFFFFFFFFFFFFFFFFF*/
+.ws-18px-regular {
   font-family: "Work Sans", sans-serif;
-  font-size: 22px;
+  font-weight: 400;
+  font-size: 18px; 
+  color: #2B292D;
+  text-align: left;
+  line-height: 26px;
+  margin-bottom: 6px;
+}
+.ws-18px-bold {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px; 
+  color: #2B292D;
+  text-align: left;
+  line-height: 26px;
+  margin-bottom: 6px;
 }
 
-/* FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF            Font Styles           SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS*/
 .ws-22px-regular {
   font-family: "Work Sans", sans-serif;
   font-size: 22px;
@@ -431,6 +444,22 @@ margin-left: 112px;
   .column {
     flex: 1;
     position: relative  ; 
+  }
+  .mobile {
+    width: 425px;
+    height: 426px;
+    left: 2px;
+    margin-left: 250px;
+  }
+  .lower-area .column a {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px; 
+  color: blue;
+  text-decoration: underline;
+  text-align: left;
+  line-height: 26px;
+  margin-bottom: 6px;
   }
   .block[data-block-id="block5"] {
     position: relative; 
