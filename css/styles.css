@@ -564,7 +564,24 @@ margin-left: 112px;
 .ball-dark {
   background-color: #2B292D;
 }
-
+/*-- 999999999   Section 9 We’re hiring  9999999999999999*/
+.long_button {
+  width: 247px;
+  height: 48px;
+  border-radius: 2px;
+  background-color: #3040C4; /* Base background color */
+  background-blend-mode: overlay;
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%);
+  box-shadow: 
+    0px 4px 6px 0px rgba(0, 0, 0, 0.05), /* First shadow */
+    0px 1px 3px 0px rgba(0, 0, 0, 0.1),  /* Second shadow */
+    inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1); /* Inset shadow */
+}
+.block[data-block-id="block9"] {
+  background-color: #ffffff;
+  max-width: 750px;
+  max-height: 623px;
+}
 /* 10#10#10 Section 10 ############################## */
  .grid{
   /* Add any overall styling for the section here */
