@@ -66,6 +66,16 @@ body{
 ################################################################################ */
 
 /* FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF            Font Styles FFFFFFFFFFFFFFFFFFFFFFFFFFFF*/
+.ws-14px-regular {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400  ;
+  font-size: 14px; 
+  color: rgba(43, 41, 45, 0.6);
+  text-align: left;
+  line-height: 22px;
+  margin-bottom: 8px;
+}
+
 .ws-18px-regular {
   font-family: "Work Sans", sans-serif;
   font-weight: 400;
@@ -147,6 +157,14 @@ body{
   margin-bottom: 8px;
   text-align: center;
 
+}
+.ws-40px-bold {
+    font-family: "Work Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 700; 
+    color: #2B292D;
+    line-height: 40px;
+    letter-spacing: -0.25px;
 }
 .ws-56px-bold{
     font-family: "Work Sans", sans-serif;
@@ -415,7 +433,7 @@ margin-left: 112px;
   }
   .section-3-line {
     border: none;
-    height: 3px;  /* Set the thickness of the line */
+    height: 3px;  
     background-color: #3142C6;
     margin: 20px 0; 
   }
@@ -431,7 +449,7 @@ margin-left: 112px;
     align-self: center;
     width: auto;
     height: auto;
-    object-fit: contain; /* Maintain aspect ratio without stretching */
+    object-fit: contain; 
   }
   .red-text {
     color: #F1592B;
@@ -440,15 +458,15 @@ margin-left: 112px;
   .section-4-text {
    display: flex;
   flex-direction: column;
-  justify-content: left; /* Center the text vertically */
+  justify-content: left; 
   position: relative;
   text-align: left;
   width: 519px;
   margin-left: 155px;
   letter-spacing: -0.5px;
   }
-/* Section 5 Built for busy small teams*/
-/* Upper Area */
+/* 5555555555555 Section 5 Built for busy small teams 55555555*/
+
 .upper-area {
    display: flex;
    gap: 20px; /* Space between columns */
@@ -456,7 +474,6 @@ margin-left: 112px;
    justify-content: space-between;
    margin-left: 0; 
    width: 1144px;
-    /* Additional styling for the upper area */
   }
   .section-5-text {
     display: flex;
@@ -467,7 +484,6 @@ margin-left: 112px;
     text-align: left;
     width: 380px;
     letter-spacing: -0.5px;
-    
   }
   
   /* Lower Area */
@@ -581,23 +597,27 @@ margin-left: 112px;
   background-color: #ffffff;
   max-width: 750px;
   max-height: 623px;
+  margin-bottom: 50px ;
 }
-/* 10#10#10 Section 10 ############################## */
+/* 10 # 10 # 10 Section 10 ### 10 ###1 0 ## 10 ########## */
+.block[data-block-id="block10"] {
+  background-color: #ffffff;
+  max-width: 1139.65px;
+  max-height: 970px;
+  top: 5888px;
+ 
+}
  .grid{
-  /* Add any overall styling for the section here */
   text-align: center;
   height: 970px;
   width: 1139.65px; 
 }
-
 .grid h3 {
   background: fixed;
 }
-
 .grid .info_text {
   background: fixed;
 }
-
 .grid .image-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr; /* 3 equal columns */
@@ -646,8 +666,15 @@ margin-left: 112px;
   max-width: 100%; /* Ensure images fit within grid cells */
   height: auto;
 }
-  /* ################## Section 11  ##########################################   */
-  /* General form styling */
+  /* 11##11##11##11##11 Section 11  ##11##11##11#############################   */
+.block[data-block-id="block11"] {
+    background-color: #ffffff;
+    max-width: 1400px;
+    max-height: 441px;
+    top:6949px;
+    background-color: #F4F5F7;
+
+  }
 form {
   display: flex;
   flex-direction: column;
@@ -671,22 +698,17 @@ input {
   font-size: 16px;
 }
 
-/* Button styling *//*
-button {
-  padding: 10px;
-  background-color: #04AA6D; 
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 16px;
-}*/
-
 button:hover {
   background-color: #039f60;
 }
 /* ##################################  Footer ########################################## */
+.block[data-block-id="footer"] {
+  background-color: #ffffff;
+  max-width: 1400px;
+  max-height: 389px;
+  background-color: #ffffff;
 
+}
 footer p, footer a {
   margin-bottom: 10px;
   color: #333;
