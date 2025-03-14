@@ -41,6 +41,24 @@ body{
     color:white;
     font-weight: 700;
 }
+.white_button {
+  width: 160px;
+  height: 48px;
+  background-color: #ffffff; 
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #3040C4;
+  background-blend-mode: overlay, normal;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+  inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+    font-size: 18px;
+    line-height: 13px;
+    color: #000000;
+    font-weight: 700;
+    margin-left: 4px;
+}
+
+
+
 /* ####################                                       
           WorkSans font  for different variants 
           ws  = Work Sans 
@@ -72,7 +90,6 @@ body{
   font-size: 22px;
   font-weight: 400; 
   color: #2B292D;
-  text-align: left;
   line-height: 32px;
   margin-bottom: 8px;
   
@@ -84,7 +101,6 @@ body{
   color: #2B292D;
   line-height: 32px;
   margin-bottom: 8px;
-  text-align: left; 
 }
 .ws-22px-smaller {
     font-family: "Work Sans", sans-serif;
@@ -103,6 +119,17 @@ body{
   text-align: left;
   line-height: 34px;
   margin-bottom: 8px;
+
+}
+.ws-24px-bold {
+  font-family: "Work Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700; 
+  color: #3142C6;
+  text-align: left;
+  line-height: 30px;
+  margin-bottom: 8px;
+  text-align: center;
 
 }
 .ws-56px-bold{
@@ -465,13 +492,49 @@ margin-left: 112px;
     position: relative; 
         
   }
-/* Section 6 Understand your audience*/
+/* 666666666666  Section 6 Understand your audience 666666*/
   .big-area {
     width: 100%;
     /* Additional styling for the upper area */
   }
+  .block[data-block-id="block6"] {
+    position: relative;
+    height: 963px;
+    background-color:#00A1C6;
+  }
+  .section-6-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 20px; 
+    position: relative;
+    text-align: center;
+    width: 480px;
+    letter-spacing: -0.5px;
+    
+  }
+  .bottom-row{
+    width: 1139;
+    height: 300px;
+    margin-top: 210px;
+  }
+  /* 77777777777777777777777777777 Section 7 77777777777777777777777 
+  
+ /*888888888888888888888888888888888888888888888888888
+ 8888 
+ Section 8 Trusted by the world’s
+  most innovative businesses – big and small 
+88888888888888888888888888888888888888888888888888888888*/  
+.block[data-block-id="block8"] {
+  background-color: #ffffff;
+}
+.ballon {
+  position: relative;
+  left: 1101px;
+}
 
-  /* ############################  Section 10 ############################## */
+
+/* 10#10#10 Section 10 ############################## */
  .grid{
   /* Add any overall styling for the section here */
   text-align: center;
