@@ -1,9 +1,12 @@
-[See the specific frame in figma] (https://www.figma.com/design/YzwVFyKKMvdZ5FpJF6hZyn/Foundation-(Copy)?node-id=0-477&t=vpwZEfOXXbqqKKoe-0)
+
 ## Design Details
 This project's core design elements are defined in this Figma frame:
 
 [See the specific frame in Figma](https://www.figma.com/design/YzwVFyKKMvdZ5FpJF6hZyn/Foundation-(Copy)?node-id=0-477&t=vpwZEfOXXbqqKKoe-0)
-
+## Common class is .general-container that should include:
+- header
+- section 1 to 11
+- footer 
 It outlines the color palette, typography, and spacing guidelines.
 ### header
 ### header tag includes div tags with classes:
