@@ -186,6 +186,15 @@ header, main {
     color: #2B292D;
     line-height: 56px;
   }
+  .ws-80px-bold{
+    font-family: "Work Sans", sans-serif;
+    font-size: 80px;
+    font-weight: 700; 
+    color:rgba(43, 41, 45, 1);
+    line-height: 78px;
+    letter-spacing: -0.5px;
+    
+  }
 /* ==========================================================================
     Header---####---Header---###---Header Styles---####---Header
    ========================================================================== */
@@ -198,10 +207,7 @@ header, main {
     columns: 1;
   }
 
-.general-container >.container{
-    max-width: 1400px;
-    margin: 0;
-}  
+
 .flex {
     display: flex;
     display: -ms-flexbox;
@@ -209,10 +215,10 @@ header, main {
     justify-content:space-between;
     align-items: center;
 }
-body, nav, main, article {
+body, nav, main , header{
   display: flex;
 } 
-body, article {
+body{
   flex-direction: column;
 } 
 
@@ -296,7 +302,7 @@ a.active {
     cursor: pointer;
     transition: 1s;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #121e7c;
-    color: rgb(14, 221, 93);
+    color: hsl(86, 88%, 46%);
 }
 .continue_header{
     background-color: #F3C6BD;

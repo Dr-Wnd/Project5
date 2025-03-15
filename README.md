@@ -25,3 +25,4 @@ Second row that is in class "section-grid" includes class "grid-flex" with icons
 ### Tag main
 -  includes 11 sections
 -  Added footer
+-  Menu has been done slight
