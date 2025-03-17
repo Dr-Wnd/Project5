@@ -312,15 +312,19 @@ a.active {
 .continue_header_title{
     width: 754px;
     height: 165px;
-    margin-left: 145px;
-    padding-left: 10px;
     position: absolute;
-    font-size: 80px;
-    font-weight: bold;
-    z-index: 1;
+    left: 126px;
+    top: 177px;
+    margin-left: 100px;
+    padding-left: 10px;
+    z-index: 2;
 }
 .continue_header_img_wrap{
-    z-index: 0;
+    z-index: 1;
+    position: absolute;
+    left: 103px;
+    top: 30px;
+    margin: 7px auto 0 1px;
 }
 .continue_header_img{
     width: 765px;
