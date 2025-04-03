@@ -136,7 +136,7 @@ header, main {
   font-family: "Work Sans", sans-serif;
   font-size: 22px;
   font-weight: 400; 
-  color: #2B292D;
+  color:rgba(43, 41, 45, 1);
   line-height: 32px;
   margin-bottom: 8px;
   
@@ -145,7 +145,7 @@ header, main {
   font-family: "Work Sans", sans-serif;
   font-size: 22px;
   font-weight: 700; 
-  color: #2B292D;
+  color: rgba(43, 41, 45, 1);
   line-height: 32px;
   margin-bottom: 8px;
 }
@@ -352,7 +352,7 @@ a.active {
     width: 100%;
   }
 
- /* Sections */ 
+ /* Articles */ 
   .block {
     padding: 2px;
     width: 100%; /* Makes blocks stretch to full width */
@@ -370,7 +370,7 @@ a.active {
     width: 1139.77px;
   }
 
-  .section-info {
+  .article-info {
     background-color: #ffffff;
     padding: 20px 0;
   }
@@ -395,71 +395,69 @@ a.active {
     position: relative;
   }
   .info-left {
-    color: #000; /* Text color */
-    /*width: 555px; Set width */
-    height: 100%; /* Set height */
+    color: #000; 
+    height: 100%; 
     padding: 15px;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center the text vertically */
+    justify-content: center;
     position: relative;
     min-width: 0; 
   }
   
-  .info-left strong {
-    font-weight: 700;
-  }
-  
- 
   .info-right {
-    width: auto; /* Allow this column to adjust automatically */
+    width: 555px; 
      display: flex;
     justify-content: center;
     align-items: center;
    }
-/* 111111111111111111       Section 1 ###############################*/
+/* 111111111111111111       Article 1 ###############################*/
 article[data-block-id="block1"] {
   background-color: #F4F5F7;
 }
   .article-1-text {
   width: 555px;
   height: 102px;
-      
-  } 
+} 
   .left-text {
     margin-left: 130px;
     padding: 0 30px 0 30px;
+    text-align: left;
   }
   .right-text {
     padding-right: 20px;
+    text-align: left;
   }
 
-  /*  2222222222222222222222      Section 2 & 7  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
-.nytimes-link {
+  /*  2222222222222222222222      Article 2 & 7  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+  article[data-block-id="block2"] {
+    background-color: #ffffff;
+  }
+  .nytimes-link {
   margin-left: 134px;
-  padding-left: 40px;
+  padding-left: 30px;
 }  
 .forbes-link {
-margin-left: 105px;
+margin-left: 45px;
 }
 .apple-link {
-margin-left: 130px;
+margin-left: 50px;
 }   
 .mashable-link {
-margin-left: 112px; 
+margin-left: 75px; 
 }
 .wsj-link {
-  margin-left: 110px; 
+  margin-left: 20px; 
 }
 .google-link {
-  margin-left: 90px;
+  margin-left: 20px;
 }
 /* 33333333333333333333333333    Section 3: Easily finds leads and customers  @@@@@@@@@@@@@@@@   */
 .green-text {
   color: #009B4D;
 }
 
-.section-3-text {
+.article-3-text {
   display: flex;
   flex-direction: column;
   justify-content: left; /* Center the text vertically */
