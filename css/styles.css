@@ -469,27 +469,27 @@ margin-left: 75px;
  }
  .special-paragraph {
     max-width: 461px;
-    margin: 40px 10px 0 0;
+    margin: 20px 10px 0 0;
     padding: 5px 40px 2px 0;
   }
-  .section-3-link {
+  .article-3-link {
     font-family: "Work Sans", sans-serif;
     font-size: 22px;
     font-weight: 700; 
-    color: #3142C6;
+    color: rgba(49, 66, 198, 1);
     text-align: left;
     line-height: 26px;
     margin-bottom: 8px;
     padding-left: 10px;
   }
-  .section-3-line {
+  .article-3-line {
     border: none;
     height: 3px;  
     background-color: #3142C6;
     margin: 20px 0; 
   }
   /* 44444444444444444444444444444444444444444444444  Section 4 44444444444444444444444444444444444444444444*/
-  section[data-block-id="block4"] {
+  article[data-block-id="block4"] {
     max-width: 1400px;
     margin-top: 0;
     height: 790px;
