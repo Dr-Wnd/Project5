@@ -92,7 +92,7 @@ header, main {
   font-family: "Work Sans", sans-serif;
   font-weight: 700;
   font-size: 18px; 
-  color: #2B292D;
+  color: rgba(43, 41, 45, 0.6);
   text-align: left;
   line-height: 26px;
   margin-bottom: 6px;
@@ -103,7 +103,7 @@ header, main {
   font-size: 16px; 
   color: rgba(43, 41, 45, 0.6);
   text-align: left;
-  line-height: 24px;
+  line-height: 22px;
 }
 .ws-16px-bold {
   font-family: "Work Sans", sans-serif;
@@ -111,7 +111,7 @@ header, main {
   font-size: 16px; 
   color: rgba(43, 41, 45, 0.6);
   text-align: left;
-  line-height: 24px;
+  line-height: 22px;
 }
 .ws-18px-regular {
   font-family: "Work Sans", sans-serif;
@@ -123,11 +123,19 @@ header, main {
   margin-bottom: 8px;
 
 }
+.ws-20px-regular {
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400; 
+  color: rgba(43, 41, 45, 1);
+  line-height: 28px;
+  margin-bottom: 8px;
+}
 .ws-20px-bold {
   font-family: "Work Sans", sans-serif;
   font-size: 20px;
   font-weight: 700; 
-  color: #2B292D;
+  color:rgba(43, 41, 45, 1);;
   line-height: 25px;
   margin-bottom: 8px;
   
@@ -154,7 +162,7 @@ header, main {
   font-family: "Work Sans", sans-serif;
   font-size: 24px;
   font-weight: 400; 
-  color: #2B292D;
+  color: rgba(43, 41, 45, 1);
   text-align: left;
   line-height: 34px;
   margin-bottom: 8px;
@@ -391,7 +399,7 @@ a.active {
     letter-spacing: 0;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center the text vertically */
+    justify-content: center; 
     position: relative;
   }
   .info-left {
@@ -452,7 +460,7 @@ margin-left: 75px;
 .google-link {
   margin-left: 20px;
 }
-/* 33333333333333333333333333    Section 3: Easily finds leads and customers  @@@@@@@@@@@@@@@@   */
+/* 33333333333333333333333333    Article 3: Easily finds leads and customers  @@@@@@@@@@@@@@@@   */
 .green-text {
   color: #009B4D;
 }
@@ -460,7 +468,7 @@ margin-left: 75px;
 .article-3-text {
   display: flex;
   flex-direction: column;
-  justify-content: left; /* Center the text vertically */
+  justify-content: left; 
   position: relative;
   text-align: left;
   width: 462px;
@@ -488,35 +496,44 @@ margin-left: 75px;
     background-color: #3142C6;
     margin: 20px 0; 
   }
-  /* 44444444444444444444444444444444444444444444444  Section 4 44444444444444444444444444444444444444444444*/
+  /* 44444444444444444444444444444444444444444444444 Article 4 44444444444444444444444444444444444444444444*/
   article[data-block-id="block4"] {
     max-width: 1400px;
     margin-top: 0;
     height: 790px;
-    background-color:#FCF0E3;
+    background-color:rgba(252, 240, 227, 1);
     
   }
-  .info-left img {
-    align-self: center;
-    width: auto;
-    height: auto;
-    object-fit: contain; 
+  .circle-orange{
+    height: 100%; 
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin: 140px auto auto 130px;
   }
   .red-text {
-    color: #F1592B;
+    color: rgba(241, 89, 43, 1);
+    text-align: left;
     ;
   }
-  .section-4-text {
-   display: flex;
-  flex-direction: column;
-  justify-content: left; 
-  position: relative;
-  text-align: left;
+.great-widgets {
+  background-color: rgba(255, 255, 255, 1);
+  background-blend-mode: overlay;/*
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%);
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1) inset;
+  */
   width: 519px;
-  margin-left: 155px;
-  letter-spacing: -0.5px;
-  }
-/* 5555555555555 Section 5 Built for busy small teams 55555555*/
+  height: 213px;
+  padding-top: 40px;
+  padding-left: 40px;
+  border-bottom: rgba(1, 133, 208, 1) 4px solid;
+}
+
+/* 5555555555555 Article 5 Built for busy small teams 55555555*/
 
 .upper-area {
    display: flex;
