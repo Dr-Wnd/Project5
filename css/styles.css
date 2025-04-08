@@ -534,7 +534,13 @@ margin-left: 75px;
 }
 
 /* 5555555555555 Article 5 Built for busy small teams 55555555*/
-
+article[data-block-id="block5"] {
+  max-width: 1144px;
+  margin-top: 0;
+  height: 646px;
+  background-color:#ffffff;
+  
+}
 .upper-area {
    display: flex;
    gap: 20px; /* Space between columns */
@@ -543,7 +549,7 @@ margin-left: 75px;
    margin-left: 0; 
    width: 1144px;
   }
-  .section-5-text {
+  .article-5-text {
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -565,6 +571,7 @@ margin-left: 75px;
   }
   .blue-text {
     color: #0189D1;
+    margin-top: 100px;
     
   }
    /* Columns */
@@ -576,7 +583,8 @@ margin-left: 75px;
     width: 425px;
     height: 426px;
     left: 2px;
-    margin-left: 250px;
+    margin-top: 100px;
+    margin-left: 150px;
   }
   .lower-area .column a {
   font-family: "Work Sans", sans-serif;
@@ -592,6 +600,7 @@ margin-left: 75px;
     position: relative; 
         
   }
+ 
 /* 666666666666  Section 6 Understand your audience 666666*/
   .big-area {
     width: 100%;
