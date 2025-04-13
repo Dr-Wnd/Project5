@@ -598,17 +598,17 @@ article[data-block-id="block5"] {
   display: inline-block;
   }
  
-/* 666666666666  Section 6 Understand your audience 666666*/
+/* 666666666666  Article 6 Understand your audience 666666*/
   .big-area {
     width: 100%;
-    /* Additional styling for the upper area */
+   
   }
   .block[data-block-id="block6"] {
     position: relative;
     height: 963px;
     background-color:#00A1C6;
   }
-  .section-6-text {
+  .article-6-text {
     display: flex;
     flex-direction: column;
     justify-content: left;
