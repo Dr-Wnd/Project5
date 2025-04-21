@@ -23,6 +23,6 @@ continue_header class is following header class
 The first .section-grid class inculdes 2 <p></p>& 6 icons. (2rows) 
 Second row that is in class "section-grid" includes class "grid-flex" with icons.  
 ### Tag main
--  includes 11 sections
+-  includes 11 articles
 -  Added footer
 -  Menu has been done slight
