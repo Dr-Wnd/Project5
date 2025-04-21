@@ -354,7 +354,7 @@ a.active {
 /* ?????????????????????               Main section  ????????????????????????????????????????????????? */
 .main-flex {
     display: flex;
-    flex-direction: column; /* Stack blocks vertically */
+    flex-direction: column; 
     /* Space between blocks   gap: 20px;*/
     padding: 0;
     align-items: center; /* Center blocks horizontally */
@@ -644,23 +644,57 @@ article[data-block-id="block5"] {
   
  /*888888888888888888888888888888888888888888888888888
  8888 
- Section 8 Trusted by the world’s
+ Article 8 Trusted by the world’s
   most innovative businesses – big and small 
 88888888888888888888888888888888888888888888888888888888*/  
 .block[data-block-id="block8"] {
   background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  flex: 750px 245px; 
+  align-items: center;
+  width: 1400px;
+  height: 355px;
+  border: 2px violet dashed;
+}
+.article-8-content {
+  flex: 1;
+  justify-content: center;
+  height: 102px;
+  height: 240px;
+  margin-left: 210px;
+  padding-left: 80px;
+}
+.article-8-content
+.ws-24px-regular
+{
+  text-align: center;
+}
+.article-8-content
+.ws-16px-bold,
+.ws-16px-regular
+ {
+   text-align: center;
+}
+.balloon {
+  flex-wrap: wrap;
+  align-items: flex-end;
+  margin-top: 150px;
 }
 .balloon img {
   position: relative;
-  float: right;
-  border: double 4px blueviolet;
+  align-items: bottom;
+  padding: 20px;
+  
 }
+
 .ball {
   width: 8px;
   height: 8px;
-  border-radius: 50%; /* Makes it a circle */
-  display: inline-block; /* Allows them to be side-by-side */
-  margin: 0 5px; /* Add some spacing between balls */
+  border-radius: 50%; 
+  display: inline-block; 
+  margin: 5px 5px auto;
+  justify-content: space-around; 
 }
 
 .ball-blue {
