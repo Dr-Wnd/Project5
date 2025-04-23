@@ -15,7 +15,7 @@
 html body{
     font-family:"Work Sans", Arial, Helvetica, sans-serif;
     margin: 0;
-    height: 100;
+    height: 100vh;
     
 }
 
@@ -229,23 +229,27 @@ body, nav, main , header{
 body{
   flex-direction: column;
 } 
-
+/* HHH HHHHH HEADER RR RRRRRRRRR*/
 .banner{
-  max-width: 1140px;
   display: flex;
-  flex-direction: row;
-  position: relative;
-  height: 62px;
-  left: 130px;
-  margin: 40px 0 0 40px;
-  border: 2px fuchsia dashed;
-  
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  margin: 44px 50px 0 130px;
+}
+.banner-logo-section {
+  display: flex;
+  align-items: center;
+}
+.banner-text-section {
+  display: flex;
+  flex-direction: column;
 }
 nav {
-  justify-content: center;
+  justify-content: right;
   border-bottom: 1px solid #ccc;
   height: 25px;
-  margin: 15px 0 0 30px;
+  margin: 15px 0 0 400px;
 }
 a {
   padding: 5px 15px;
@@ -269,7 +273,7 @@ a {
 }
 a:not(:last-of-type)
 /*.header_li:not(:last-of-type)*/{
-    margin-right: 30px;
+    margin-right: 10px;
 }
 .header_link{
     font-size: 18px;
@@ -632,8 +636,6 @@ article[data-block-id="block5"] {
     margin-top: 160px;
     margin-left: 10px;
     padding: 2px;
-    border: 2px brown dashed;
-
   }
   /* 77777777777777777777777777777 Article 7 77777777777777777777777 
   
@@ -695,14 +697,13 @@ article[data-block-id="block5"] {
 .ball-dark {
   background-color: #2B292D;
 }
-/*-- 999999999   Section 9 We’re hiring  9999999999999999*/
+/*-- 999999999   Article 9 We’re hiring  9999999999999999*/
 .block[data-block-id="block9"] {
   background-color: #ffffff;
   max-width: 750px;
   max-height: 623px;
   margin-bottom: 50px;
   padding-top: 40px; 
-  border: 2px violet dashed;
 }
 .long_button {
   width: 247px;
@@ -814,15 +815,12 @@ article[data-block-id="block5"] {
     flex: 1;
     position: relative;
     margin: 2px auto auto 100px;
-    border: #039f60 2px solid;
-  }
+   }
   .article-11-content
   {
     flex: 2;
     flex-direction: column;
     width: 700px;
-    border: cornflowerblue dashed 3px;
-
   }
   .article-11-content
   .ws-22px-regular {
