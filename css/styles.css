@@ -321,14 +321,14 @@ a.active {
     min-width: 1400px;
     margin:0 10px auto 10px;
 }
-.continue_header_title{
+.continue_header
+.ws-80px-bold {
     width: 754px;
     height: 165px;
     position: absolute;
     left: 126px;
     top: 177px;
     margin-left: 100px;
-    padding-left: 10px;
     z-index: 2;
 }
 .continue_header_img_wrap{
@@ -345,13 +345,14 @@ a.active {
     top:146px;
     left: 570px; 
 }
-.continue_header_text{
+.continue_header
+.ws-24px-regular{
     position: absolute;
     width:412px;
     height: auto;
     top:376px;
-    font-size: 28px;
-    margin-left: 145px; 
+    margin-left: 160px;
+     
 }
 
 /* ?????????????????????               Main section  ????????????????????????????????????????????????? */
@@ -624,7 +625,8 @@ article[data-block-id="block5"] {
     flex-wrap: wrap;
     align-items: flex-start; 
     flex-direction: row;
-    margin: 50px auto 5px 450px;
+    margin: 50px 400px 5px 500px;
+    border: 2px maroon solid;
   }
   .article-6-img {
     display: flex;
