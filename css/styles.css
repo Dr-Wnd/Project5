@@ -626,7 +626,7 @@ article[data-block-id="block5"] {
     align-items: flex-start; 
     flex-direction: row;
     margin: 50px 400px 5px 500px;
-    border: 2px maroon solid;
+    
   }
   .article-6-img {
     display: flex;
