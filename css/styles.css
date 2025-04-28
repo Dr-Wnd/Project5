@@ -700,12 +700,12 @@ article[data-block-id="block5"] {
   background-color: #2B292D;
 }
 /*-- 999999999   Article 9 We’re hiring  9999999999999999*/
-.block[data-block-id="block9"] {
-  background-color: #ffffff;
-  max-width: 750px;
-  max-height: 623px;
-  margin-bottom: 50px;
-  padding-top: 40px; 
+.article-9{
+  display: flex;
+  flex-direction: column; 
+  padding: 20px auto 0 40px;
+  align-items: center;
+  border: 3px mediumvioletred dotted;
 }
 .long_button {
   width: 247px;
@@ -720,16 +720,75 @@ article[data-block-id="block5"] {
     0px 1px 3px 0px rgba(0, 0, 0, 0.1),  /* Second shadow */
     inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1); /* Inset shadow */
 }
-.article-9-content {
-  display: flex;
-  flex-direction: column; 
-  padding: 0;
-  align-items: center;
-  width: 100%;
+.long_button:hover{
+  cursor: pointer;
+  transition: 1s;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #121e7c;
+  color: hsl(86, 88%, 46%);
 }
-.article-9-content
-.ws-24px-regular {
-  text-align: center;
+.article-9-container {
+  display: flex;
+  flex-direction: column;
+  width: 750px;
+  margin-top: 20px;
+}
+.item {
+  width: 700px;
+  margin: 10px auto;
+  border: 1px solid #ccc;
+  font-family: sans-serif;
+}
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
+}
+.section p:last-child {
+  margin-left: auto;
+  width: 300px;
+  font-size: 18px;
+  color: #555;
+}
+.section::after {
+  content: ">";
+  text-align: right;
+  display: inline-block;
+  transition: transform 0.3s ease;
+  font-weight: bold;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.section.rotate::after {
+  transform: rotate(90deg);
+}
+.info {
+  max-height: 0;
+  width: 440px;
+  margin-left: 15px;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.5s ease, opacity 0.5s ease;
+}
+.item.active {
+  background-color: blue;
+  color: white;
+  border-radius: 12px;
+  border-color: blue;
+}
+.item.active
+.ws-22px-bold {
+  color: white;
+}
+.item.active
+.ws-18px-regular {
+  color: white;
+} 
+.item.active .info {
+  max-height: 300px; /* Enough height for your paragraph */
+  opacity: 1;
+  margin-top: 10px;
 }
 /* 10 10 10  Article 10 All Surfaces Covered  10 10 10 */
 .flex-column {
