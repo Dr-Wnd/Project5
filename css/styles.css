@@ -247,7 +247,7 @@ a.active {
 /* MMMMMMMMMMMMMMMMMMMMMMMM MENU FINISH MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
 .header-info{
   background-color: #F3C6BD;
-  min-width: 1400px;
+  max-width: 1400px;
   margin:0 10px auto 10px;
 }
 .header-info
