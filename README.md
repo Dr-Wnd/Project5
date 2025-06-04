@@ -5,24 +5,16 @@ This project's core design elements are defined in this Figma frame:
 [See the specific frame in Figma](https://www.figma.com/design/YzwVFyKKMvdZ5FpJF6hZyn/Foundation-(Copy)?node-id=0-477&t=vpwZEfOXXbqqKKoe-0)
 ## Common class is .general-container that should include:
 - header
-- section 1 to 11
+- articles 1 up to 11
 - footer 
 It outlines the color palette, typography, and spacing guidelines.
 ### header
-### header tag includes div tags with classes:
-container flex;
-logo_title;
-logo_text;
-### css divided inot two modules:
-1. headerstyle.css (deleted 14/03/2025)
-2. sectionstyle.css (deleted)
-3. Then all css - files was united into style.css
-#### Next .continue_header class 
-continue_header class is following header class
-##### .grid_contaner after .continue_header
-The first .section-grid class inculdes 2 <p></p>& 6 icons. (2rows) 
-Second row that is in class "section-grid" includes class "grid-flex" with icons.  
+
+### Screens are divided into three files:
+1. style-1400.css 
+2. style-109.css 
+3. style-320.css 
+
 ### Tag main
 -  includes 11 articles
 -  Added footer
--  Menu has been done slight
