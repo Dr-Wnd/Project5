@@ -115,17 +115,14 @@
   .header-info_img_wrap{
     position: absolute;
     left: 103px;
-    top: 30px;
+    top: 430px;
     margin: 7px auto 0 1px;
     z-index: 1;
   }
   .header-info_img{
     width: 765px;
     height: 400px;
-    position: absolute;
-    top:146px;
-    left: 570px; 
-  }
+   }
   .header-info
   .ws-24px-regular{
     position: absolute;
