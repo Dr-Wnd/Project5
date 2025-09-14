@@ -12,7 +12,7 @@
   .header{
       background: rgba(243, 198, 189, 1);
       max-width: 100%;
-      height: 750px;
+      min-height: 750px;
       margin-bottom: 0px;
       border-radius: .5em;
       columns: 1;
@@ -102,36 +102,22 @@
     max-width: 1400px;
     margin:0 10px auto 10px;
   }
-  .header-info
-  .ws-80px-bold {
-    width: 754px;
+  .header-info {
+    max-width: 749px;
     height: 165px;
-    position: absolute;
-    left: 30px;
-    top: 177px;
-    margin-left: 100px;
+    margin-left: 5px;
     z-index: 2;
   }
-  .header-info_img_wrap{
-    position: relative;
-    left: 10px;
-    top: 430px;
-    margin: 7px auto 0 1px;
-    z-index: 1;
+  .header-info_img_wrap {
+   top: 450px;
+   left: 2px;
+   margin: 7px 200px 0 1px;
   }
   .header-info_img{
-    width: 765px;
-    height: 400px;
+    width: 620px;
+    height: 349px;
    }
-  .header-info
-  .ws-24px-regular{
-    position: absolute;
-    width:412px;
-    height: auto;
-    top:376px;
-    margin-left: 128px;
-  }
-  .header-info_buttons {
+ .header-info_buttons {
     position: absolute;
     display: inline-flex;
     top: 536px;
