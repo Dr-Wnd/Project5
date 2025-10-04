@@ -18,3 +18,7 @@ It outlines the color palette, typography, and spacing guidelines.
 ### Tag main
 -  includes 11 articles
 -  Added footer
+
+### Articles
+- include one block
+## It should be prepared to React
