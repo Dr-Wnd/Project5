@@ -13,11 +13,10 @@
   /* HHHHHHHHHHHHHHHHHHHHHHHHHHH = HEADER = HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
   .header {
     background: rgba(243, 198, 189, 1);
-    max-width: 1080px;
-    min-height: 750px;
-    margin-bottom: 1px;
+    max-width: 1090px;
+    min-height: 950px;
     border-radius: 16px;
-    padding: 16px 8px 16px 8px;
+    padding: 1px;
   }
 
   .header-banner {
@@ -113,8 +112,14 @@
   /* MMMMMMMMMMMMMMMMMMMMMMMM MENU FINISH MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
   .header-info {
     background-color: #F3C6BD;
-    height: 128px;
-    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  .box {
+    margin: 5px;
+    text-align: left;
   }
 
   .ws-60px-bold {
@@ -135,12 +140,13 @@
 
   .header-info_img_wrap {
     top: 450px;
-    margin: 150px 2px auto 0px;
+    margin: auto 100px auto 0 0;
+    width: 620px;
+    height: 349px;
   }
 
   .header-info_img {
-    width: 620px;
-    height: 349px;
+    padding: 0;
   }
 
   .header-info_buttons {
